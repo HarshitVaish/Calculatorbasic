@@ -52,9 +52,9 @@ public class MainActivity extends AppCompatActivity {
     {
         firstNumberString=editTextOne.getText().toString();
         secondNumberString=editTextTwo.getText().toString();
-        int num1=Integer.parseInt(firstNumberString);
-        int num2=Integer.parseInt(secondNumberString);
-        int div=num1/num2;
+        float num1=Float.parseFloat(firstNumberString);
+        float num2=Float.parseFloat(secondNumberString);
+        float div=num1/num2;
         textView.setText(""+div);
 
     }
